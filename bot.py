@@ -11,19 +11,15 @@ INTERVAL_SECONDS = 360  # 1 Stunde
 
 # ================= FACTS =================
 SUIMON_FACTS = [
-    "When the original dev abandoned the project, the community stepped up and took over as CTO to continue building.",
-    "SUIMON proves that strong communities can revive and grow projects even after setbacks.",
-    "SUIMON is a reminder that in crypto, the community is the real backbone of any project.",
-    "Built by the people, for the people — SUIMON is powered by its community.",
-    "From abandoned to reborn — SUIMON is a true community comeback story.",
-    "SUIMON shows that transparency and consistency matter more than hype.",
-    "In crypto, strong hands build long-term value — SUIMON embraces that mindset.",
-    "SUIMON focuses on organic growth, not short-term hype.",
-    "No promises, just building — that’s the SUIMON way.",
-    "SUIMON believes real value is created during quiet times, not during hype cycles.",
-    "Community over charts — SUIMON keeps building regardless of market conditions.",
-    "Slow and steady building often wins the race — SUIMON stays consistent.",
-    "SUIMON is an example of how decentralization starts with community responsibility.",
+    "SUIMON is a CTO project on the Sui blockchain.",
+    "The visual theme of SUIMON is inspired by classic Pokémon-style character design.",
+    "After the original developer stopped maintaining the project, community members assumed technical leadership.",
+    "SUIMON operates without a centralized company structure.",
+    "The project relies on community coordination rather than venture capital backing.",
+    "SUIMON is deployed on the Sui blockchain, which uses the Move programming language.",
+    "The Sui blockchain allows parallel transaction execution, which SUIMON inherits by default.",
+    "SUIMON development decisions are discussed openly within the community.",
+    "The project continued after its initial launch despite reduced liquidity during early stages.",
 ]
 
 # ================= BOT LOOP (BLEIBT IMMER WACH) =================
@@ -54,6 +50,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
