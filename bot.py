@@ -21,21 +21,24 @@ SUIMON_FACTS = [
     "SUIMON development decisions are discussed openly within the community.",
     "The project continued after its initial launch despite reduced liquidity during early stages.",
 ]
-
-# ===== STATE =====
-last_fact = None
-
 # ===== BOT =====
 bot = Bot(token=BOT_TOKEN)
 
+# ===== FACT QUEUE =====
+fact_queue = []
+
+def refill_facts():
+    global fact_queue
+    fact_queue = SUIMON_FACTS.copy()
+    random.shuffle(fact_queue)
+
 async def send_fact():
-    global last_fact
+    global fact_queue
 
-    fact = random.choice(SUIMON_FACTS)
-    while fact == last_fact:
-        fact = random.choice(SUIMON_FACTS)
+    if not fact_queue:
+        refill_facts()
 
-    last_fact = fact
+    fact = fact_queue.pop()
 
     message = f"🧠 <b>SUIMON Fact</b>\n\n{fact}"
 
@@ -46,6 +49,7 @@ async def send_fact():
     )
 
 async def main():
+    refill_facts()
     while True:
         try:
             await send_fact()
@@ -55,7 +59,6 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-
 
 
 
