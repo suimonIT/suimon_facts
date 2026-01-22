@@ -11,14 +11,19 @@ INTERVAL_SECONDS = 3600  # 1 Stunde
 
 # ================= FACTS =================
 SUIMON_FACTS = [
-    "SUIMON is built on the Sui blockchain, designed for high-speed and low-latency transactions.",
-    "The Sui network uses an object-centric data model, which SUIMON benefits from for scalability.",
-    "SUIMON focuses on community-driven growth and on-chain transparency.",
-    "Sui uses the Move programming language, giving SUIMON a strong security foundation.",
-    "Low fees on Sui allow SUIMON to stay accessible for everyday users.",
-    "SUIMON benefits from fast finality, settling transactions in seconds.",
-    "The Sui ecosystem is still early-stage, giving SUIMON long-term upside potential.",
-    "Parallel transaction execution on Sui improves SUIMON performance under load.",
+    "When the original dev abandoned the project, the community stepped up and took over as CTO to continue building.",
+    "SUIMON proves that strong communities can revive and grow projects even after setbacks.",
+    "SUIMON is a reminder that in crypto, the community is the real backbone of any project.",
+    "Built by the people, for the people — SUIMON is powered by its community.",
+    "From abandoned to reborn — SUIMON is a true community comeback story.",
+    "SUIMON shows that transparency and consistency matter more than hype.",
+    "In crypto, strong hands build long-term value — SUIMON embraces that mindset.",
+    "SUIMON focuses on organic growth, not short-term hype.",
+    "No promises, just building — that’s the SUIMON way.",
+    "SUIMON believes real value is created during quiet times, not during hype cycles.",
+    "Community over charts — SUIMON keeps building regardless of market conditions.",
+    "Slow and steady building often wins the race — SUIMON stays consistent.",
+    "SUIMON is an example of how decentralization starts with community responsibility.",
 ]
 
 # ================= BOT LOOP (BLEIBT IMMER WACH) =================
@@ -49,5 +54,6 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
