@@ -1,14 +1,15 @@
 import random
 import asyncio
-import os
 from telegram import Bot
 from telegram.constants import ParseMode
 
-# ========== CONFIG (Render Environment Vars) ==========
-BOT_TOKEN = os.environ["BOT_TOKEN"]
-CHAT_ID = os.environ["CHAT_ID"]
+# ================= CONFIG =================
+BOT_TOKEN = 8307980171:AAEPQxPujHOy0j1WN-bA2RWfq7z_fTKcOes
+CHAT_ID = -1003407035529  
 
-# ========== FACTS ==========
+INTERVAL_SECONDS = 3600  # 1 Stunde
+
+# ================= FACTS =================
 SUIMON_FACTS = [
     "SUIMON is built on the Sui blockchain, designed for high-speed and low-latency transactions.",
     "The Sui network uses an object-centric data model, which SUIMON benefits from for scalability.",
@@ -20,21 +21,32 @@ SUIMON_FACTS = [
     "Parallel transaction execution on Sui improves SUIMON performance under load.",
 ]
 
-# ========== BOT LOGIC ==========
-async def send_fact():
+# ================= BOT LOOP (BLEIBT IMMER WACH) =================
+async def main():
     bot = Bot(token=BOT_TOKEN)
-    fact = random.choice(SUIMON_FACTS)
 
-    message = (
-        "🧠 <b>SUIMON Fact</b>\n\n"
-        f"{fact}"
-    )
+    while True:
+        try:
+            fact = random.choice(SUIMON_FACTS)
 
-    await bot.send_message(
-        chat_id=CHAT_ID,
-        text=message,
-        parse_mode=ParseMode.HTML
-    )
+            message = (
+                "🧠 <b>SUIMON Fact</b>\n\n"
+                f"{fact}"
+            )
+
+            await bot.send_message(
+                chat_id=CHAT_ID,
+                text=message,
+                parse_mode=ParseMode.HTML
+            )
+
+            print("Fact gesendet")
+
+        except Exception as e:
+            print("Fehler:", e)
+
+        await asyncio.sleep(INTERVAL_SECONDS)
 
 if __name__ == "__main__":
-    asyncio.run(send_fact())
+    asyncio.run(main())
+
