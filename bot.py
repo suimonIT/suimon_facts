@@ -22,30 +22,35 @@ SUIMON_FACTS = [
     "The project continued after its initial launch despite reduced liquidity during early stages.",
 ]
 
-# ================= BOT LOOP (BLEIBT IMMER WACH) =================
-async def main():
-    bot = Bot(token=BOT_TOKEN)
+# ===== STATE =====
+last_fact = None
 
+# ===== BOT =====
+bot = Bot(token=BOT_TOKEN)
+
+async def send_fact():
+    global last_fact
+
+    fact = random.choice(SUIMON_FACTS)
+    while fact == last_fact:
+        fact = random.choice(SUIMON_FACTS)
+
+    last_fact = fact
+
+    message = f"🧠 <b>SUIMON Fact</b>\n\n{fact}"
+
+    await bot.send_message(
+        chat_id=CHAT_ID,
+        text=message,
+        parse_mode=ParseMode.HTML
+    )
+
+async def main():
     while True:
         try:
-            fact = random.choice(SUIMON_FACTS)
-
-            message = (
-                "🧠 <b>SUIMON Fact</b>\n\n"
-                f"{fact}"
-            )
-
-            await bot.send_message(
-                chat_id=CHAT_ID,
-                text=message,
-                parse_mode=ParseMode.HTML
-            )
-
-            print("Fact gesendet")
-
+            await send_fact()
         except Exception as e:
-            print("Fehler:", e)
-
+            print("Error:", e)
         await asyncio.sleep(INTERVAL_SECONDS)
 
 if __name__ == "__main__":
