@@ -11,16 +11,12 @@ INTERVAL_SECONDS = 5385
 
 # ================= FACTS =================
 SUIMON_FACTS = [
-    "⏳ If you hold long enough, the Suimon starts holding you.",
-    "🌧️ Even the strongest trainers lost their first battles.",
     "🐢 Some Suimon are not slow. They are training endurance.",
     "🌍 Suimon is technically a post-apocalyptic world where animals are already extinct.",
     "🚽 No one has ever seen a Suimon use the bathroom, yet the world has plumbing. Think about that.",
-    "💸 Suimon trainers have never paid taxes in any known region.",
     "📈 If a Suimon stares at a chart long enough, the chart moves out of fear.",
     "🥚 Suimon eggs hatch faster when the price goes up.",
     "⚡ Suikachu refused rehab after repeated attempts. Hopium is a helluva drug.",
-    "🔮 Suimon only evolves after you emotionally detach.",
     "💀 The Jengarcide will be studied for years to come.",
     "🐋 Whalemon can move markets by sneezing."
 ]
@@ -62,6 +58,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
