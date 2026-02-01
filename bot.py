@@ -13,11 +13,11 @@ INTERVAL_SECONDS = 5385
 SUIMON_FACTS = [
     "🐢 Some Suimon are not slow. They are training endurance.",
     "🌍 Suimon is technically a post-apocalyptic world where animals are already extinct.",
-    "🚽 No one has ever seen a Suimon use the bathroom, yet the world has plumbing. Think about that.",
-    "📈 If a Suimon stares at a chart long enough, the chart moves out of fear.",
-    "🥚 Suimon eggs hatch faster when the price goes up.",
+    "🤝 Suimon is a CTO on Sui, built around the Pokémon narrative. Duh!",
+    "⚔️ One by one, Suimon beats every arena on SUI.",
+    "🌙 Legendary Suimon only appear after you stop checking the chart",
+    "🏕️ Every long route has a rest stop. This is one of them.",
     "⚡ Suikachu refused rehab after repeated attempts. Hopium is a helluva drug.",
-    "💀 The Jengarcide will be studied for years to come.",
     "🐋 Whalemon can move markets by sneezing."
 ]
 # ===== BOT =====
@@ -58,6 +58,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
