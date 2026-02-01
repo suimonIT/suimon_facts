@@ -11,7 +11,9 @@ INTERVAL_SECONDS = 10800  # 3 Stunden
 
 # ================= FACTS =================
 SUIMON_FACTS = [
-    "🥚 Does she even hold your Suiballs?",
+    "⏳ If you hold long enough, the Suimon starts holding you.",
+    "🌧️ Even the strongest trainers lost their first battles.",
+    "🐢 Some Suimon are not slow. They are training endurance.",
     "🌍 Suimon is technically a post-apocalyptic world where animals are already extinct.",
     "🚽 No one has ever seen a Suimon use the bathroom, yet the world has plumbing. Think about that.",
     "💸 Suimon trainers have never paid taxes in any known region.",
@@ -60,6 +62,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
