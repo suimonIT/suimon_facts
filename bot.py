@@ -11,14 +11,13 @@ INTERVAL_SECONDS = 5385
 
 # ================= FACTS =================
 SUIMON_FACTS = [
-    "🐢 Some Suimon are not slow. They are training endurance.",
     "🌍 Suimon is technically a post-apocalyptic world where animals are already extinct.",
-    "🤝 Suimon is a CTO on Sui, built around the Pokémon narrative. Duh!",
     "⚔️ One by one, Suimon beats every arena on SUI.",
-    "🌙 Legendary Suimon only appear after you stop checking the chart",
+    "⛰Suiamp can move mountains… yet still needs 4 arms to carry groceries.",
+    "🃏 Chad lost his house playing Pokermon, yet he still can’t stop hanging out on PokerNow.",
+    "🤵 Chad has been 10 years old for over 25 years. This makes him canonically immortal.",
     "🏕️ Every long route has a rest stop. This is one of them.",
     "⚡ Suikachu refused rehab after repeated attempts. Hopium is a helluva drug.",
-    "🐋 Whalemon can move markets by sneezing."
 ]
 # ===== BOT =====
 bot = Bot(token=BOT_TOKEN)
@@ -58,6 +57,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
