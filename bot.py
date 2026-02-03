@@ -13,6 +13,11 @@ INTERVAL_SECONDS = 5385
 SUIMON_FACTS = [
     "🌍 Suimon is technically a post-apocalyptic world where animals are already extinct.",
     "⚔️ One by one, Suimon beats every arena on SUI.",
+    "🚽 No one has ever seen a Suimon use the bathroom, yet the world has plumbing. Think about that.",
+    "🥚 Suimon eggs hatch faster when the price goes up.",
+    "⏳ If you hold long enough, the Suimon starts holding you.",
+    "🚀 Team Rocket has attempted more kidnappings than most true crime podcasts",
+    "👩‍⚕️ Nurse Joy and Officer Jenny are not just relatives, they are implied to be genetic clones",
     "⛰ Suiamp can move mountains… yet still needs 4 arms to carry groceries.",
     "🃏 Chad lost his house playing Pokermon, yet he still can’t stop hanging out on PokerNow.",
     "🤵 Chad has been 10 years old for over 25 years. This makes him canonically immortal.",
@@ -57,6 +62,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
