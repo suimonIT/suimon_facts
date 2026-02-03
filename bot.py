@@ -7,7 +7,7 @@ from telegram.constants import ParseMode
 BOT_TOKEN = "8307980171:AAEPQxPujHOy0j1WN-bA2RWfq7z_fTKcOes"
 CHAT_ID = -1002664937769  
 
-INTERVAL_SECONDS = 5385
+INTERVAL_SECONDS = 4000
 
 # ================= FACTS =================
 SUIMON_FACTS = [
@@ -16,13 +16,19 @@ SUIMON_FACTS = [
     "🚽 No one has ever seen a Suimon use the bathroom, yet the world has plumbing. Think about that.",
     "🥚 Suimon eggs hatch faster when the price goes up.",
     "⏳ If you hold long enough, the Suimon starts holding you.",
-    "🚀 Team Rocket has attempted more kidnappings than most true crime podcasts",
-    "👩‍⚕️ Nurse Joy and Officer Jenny are not just relatives, they are implied to be genetic clones",
+    "🚀 Team Rocket has attempted more kidnappings than most true crime podcasts.",
+    "👩‍⚕️ Nurse Joy and Officer Jenny are not just relatives, they are implied to be genetic clones.",
     "⛰ Suiamp can move mountains… yet still needs 4 arms to carry groceries.",
     "🃏 Chad lost his house playing Pokermon, yet he still can’t stop hanging out on PokerNow.",
     "🤵 Chad has been 10 years old for over 25 years. This makes him canonically immortal.",
     "🏕️ Every long route has a rest stop. This is one of them.",
     "⚡ Suikachu refused rehab after repeated attempts. Hopium is a helluva drug.",
+    "💎 Does she even hold your Suiballs?",
+    "🏦 Suimon trainers have never paid taxes in any known region.",
+    "📉 If a Suimon stares at a chart long enough, the chart moves out of fear.",
+    "🧠 Suimon only evolves after you emotionally detach.",
+    "🔥 The Jengarcide will be studied for years to come.",
+    "🐋 Whalemon can move markets by sneezing."
 ]
 # ===== BOT =====
 bot = Bot(token=BOT_TOKEN)
@@ -62,6 +68,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
