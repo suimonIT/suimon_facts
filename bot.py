@@ -11,24 +11,20 @@ INTERVAL_SECONDS = 4000
 
 # ================= FACTS =================
 SUIMON_FACTS = [
-    "🌍 Suimon is technically a post-apocalyptic world where animals are already extinct.",
-    "⚔️ One by one, Suimon beats every arena on SUI.",
-    "🚽 No one has ever seen a Suimon use the bathroom, yet the world has plumbing. Think about that.",
-    "🥚 Suimon eggs hatch faster when the price goes up.",
-    "⏳ If you hold long enough, the Suimon starts holding you.",
-    "🚀 Team Rocket has attempted more kidnappings than most true crime podcasts.",
-    "👩‍⚕️ Nurse Joy and Officer Jenny are not just relatives, they are implied to be genetic clones.",
-    "⛰ Suiamp can move mountains… yet still needs 4 arms to carry groceries.",
-    "🃏 Chad lost his house playing Pokermon, yet he still can’t stop hanging out on PokerNow.",
-    "🤵 Chad has been 10 years old for over 25 years. This makes him canonically immortal.",
-    "🏕️ Every long route has a rest stop. This is one of them.",
-    "⚡ Suikachu refused rehab after repeated attempts. Hopium is a helluva drug.",
-    "💎 Does she even hold your Suiballs?",
-    "🏦 Suimon trainers have never paid taxes in any known region.",
-    "📉 If a Suimon stares at a chart long enough, the chart moves out of fear.",
-    "🧠 Suimon only evolves after you emotionally detach.",
-    "🔥 The Jengarcide will be studied for years to come.",
-    "🐋 Whalemon can move markets by sneezing."
+    "⚔️ Every Suimon arena is beaten the same way: patience, conviction, and zero stop-losses.",
+    "🎨 Even legendary trainers show up every Friday for Fan Art Friday to expand their Suimon portfolio.",
+    "🥚 Suimon eggs don’t hatch by time — they hatch by belief.",
+    "📈 A Suimon once stared at a chart so long it turned bullish out of respect.",
+    "🧢 Every trainer claims they were early. Only Suimon actually was.",
+    "⚡ A certain electric mouse secretly joins Fan Art Friday every week under an alt account.",
+    "🃏 Legendary trainers have lost battles, gyms, and fortunes — but never their Suimon.",
+    "🧠 Suimon only reaches its final form once you stop checking the price every five minutes.",
+    "🐉 Dragons fear Suimon not for its power, but for its holder count.",
+    "📉 When panic sells, Suimon quietly levels up.",
+    "🔥 Some say Team Rocket never returned because they tried to short Suimon.",
+    "💎 Suimon doesn’t ask if you hold — it already knows.",
+    "🐋 When a Whalemon moves, the market notices. When Suimon moves, history does.",
+    "🧿 Every Suimon journey begins as a meme and ends as lore."
 ]
 # ===== BOT =====
 bot = Bot(token=BOT_TOKEN)
@@ -68,6 +64,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
