@@ -51,7 +51,7 @@ async def send_fact():
 
     fact = fact_queue.pop()
 
-    message = f"♣️ <b>Pokermon 5pm EST</b>\n\n{fact}"
+    message = f"🧠<b>SUIMON Fact</b>\n\n{fact}"
 
     await bot.send_message(
         chat_id=CHAT_ID,
@@ -70,6 +70,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
