@@ -11,13 +11,17 @@ INTERVAL_SECONDS = 4000
 
 # ================= FACTS =================
 SUIMON_FACTS = [
-    "🃏 Legendary trainers have lost battles, gyms, and fortunes — but never their Suimon.",
-    "🧠 Suimon only reaches its final form once you stop checking the price every five minutes.",
-    "🐉 Dragons fear Suimon not for its power, but for its holder count.",
-    "🔥 Some say Team Rocket never returned because they tried to short Suimon.",
-    "💎 Suimon doesn’t ask if you hold — it already knows.",
-    "🐋 When a Whalemon moves, the market notices. When Suimon moves, history does.",
-    "🧿 Every Suimon journey begins as a meme and ends as lore."
+    "🎒 Suimon trainers always say just one more arena and disappear for six hours.",
+    "🐸 Some Suimon pretend to be weak just to test your patience.",
+    "🚨 Just in: Suikachu escaped rehab again. Hopium is flooding the land. The Suimon Authority has declared a national emergency.",
+    "📘 The Suidex lists overconfidence as a common trainer debuff.",
+    "🏟️ Arena leaders respect only one thing. Consistency.",
+    "📉 When charts go down Suimon calls it difficulty scaling.",
+    "🧪 Mixing hopium and impatience causes instant confusion.",
+    "🏕️ Experienced trainers know when to rest and not press buttons.",
+    "🐢 Suimon moves slow so trainers can keep up.",
+    "🔍 The rarest Suimon ability is ignoring noise.",
+    "🎨 Picasso lost an ear after someone asked him to draw a Suimon meme for Fan Art Friday."
 ]
 # ===== BOT =====
 bot = Bot(token=BOT_TOKEN)
@@ -57,6 +61,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
