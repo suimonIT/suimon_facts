@@ -11,26 +11,7 @@ INTERVAL_SECONDS = 4000
 
 # ================= FACTS =================
 SUIMON_FACTS = [
-    "🎒 Suimon trainers say just one more arena and accidentally time travel six hours into the future.",
-    "🚨 BREAKING: Suikachu escaped rehab again. Hopium reserves at all time highs. Authorities advise calm and diamond hands.",
-    "📘 The Suidex lists overconfidence as a passive debuff with a 99% uptime.",
-    "🏟️ Arena leaders respect only one thing: consistency. And sometimes memes.",
-    "🧪 Mixing hopium with impatience causes instant confusion and random button clicking.",
-    "🐢 Suimon moves slow so trainers dont lose their sanity watching charts.",
-    "🔍 The rarest Suimon ability is ignoring noise and not replying to doom posts.",
-    "💊 Side effects of holding Suimon may include euphoria, delayed sleep, and saying trust the process unironically.",
-    "🌫️ Suimon trainers dont chase pumps. They inhale hopium and wait.",
-    "🧠 Adeniyi said build for the long term. Suimon trainers heard dont panic sell.",
-    "⚗️ The Sui ecosystem runs on Move. Suimon trainers run on caffeine and hopium.",
-    "🎮 Suimon is inspired by childhood games and adult financial trauma.",
-    "📉 When charts go down, Suimon gains emotional resistance.",
-    "🔥 Every Suimon arena teaches the same lesson: survive the noise.",
-    "🌀 Too much alpha exposure may result in temporary delusion.",
-    "🛑 Suimon rehab centers are full. Nobody wants to leave the ecosystem.",
-    "🎨 Someone once tried to draw Suimon sober. It didnt feel right.",
-    "🧬 Long term holders develop natural immunity to FUD.",
-    "🧃 The official Suimon drink is optimism with a splash of disbelief.",
-    "👁️ Suimon doesnt watch the chart. The chart watches Suimon."
+    "⚠️ 15 minutes left, join now! https://www.pokernow.com/mtt/pokermon-2426-21tf98IWa7",
 ]
 # ===== BOT =====
 bot = Bot(token=BOT_TOKEN)
@@ -51,7 +32,7 @@ async def send_fact():
 
     fact = fact_queue.pop()
 
-    message = f"🧠 <b>SUIMON Fact</b>\n\n{fact}"
+    message = f"♣️ <b>Pokermon 5pm EST</b>\n\n{fact}"
 
     await bot.send_message(
         chat_id=CHAT_ID,
@@ -70,6 +51,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
