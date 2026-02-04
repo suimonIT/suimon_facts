@@ -11,16 +11,10 @@ INTERVAL_SECONDS = 4000
 
 # ================= FACTS =================
 SUIMON_FACTS = [
-    "⚔️ Every Suimon arena is beaten the same way: patience, conviction, and zero stop-losses.",
-    "🎨 Even legendary trainers show up every Friday for Fan Art Friday to expand their Suimon portfolio.",
     "🥚 Suimon eggs don’t hatch by time — they hatch by belief.",
-    "📈 A Suimon once stared at a chart so long it turned bullish out of respect.",
-    "🧢 Every trainer claims they were early. Only Suimon actually was.",
-    "⚡ A certain electric mouse secretly joins Fan Art Friday every week under an alt account.",
     "🃏 Legendary trainers have lost battles, gyms, and fortunes — but never their Suimon.",
     "🧠 Suimon only reaches its final form once you stop checking the price every five minutes.",
     "🐉 Dragons fear Suimon not for its power, but for its holder count.",
-    "📉 When panic sells, Suimon quietly levels up.",
     "🔥 Some say Team Rocket never returned because they tried to short Suimon.",
     "💎 Suimon doesn’t ask if you hold — it already knows.",
     "🐋 When a Whalemon moves, the market notices. When Suimon moves, history does.",
@@ -64,6 +58,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
