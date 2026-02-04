@@ -11,7 +11,6 @@ INTERVAL_SECONDS = 4000
 
 # ================= FACTS =================
 SUIMON_FACTS = [
-    "🥚 Suimon eggs don’t hatch by time — they hatch by belief.",
     "🃏 Legendary trainers have lost battles, gyms, and fortunes — but never their Suimon.",
     "🧠 Suimon only reaches its final form once you stop checking the price every five minutes.",
     "🐉 Dragons fear Suimon not for its power, but for its holder count.",
@@ -58,6 +57,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
