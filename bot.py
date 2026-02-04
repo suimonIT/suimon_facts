@@ -12,13 +12,10 @@ INTERVAL_SECONDS = 4000
 # ================= FACTS =================
 SUIMON_FACTS = [
     "🎒 Suimon trainers always say just one more arena and disappear for six hours.",
-    "🐸 Some Suimon pretend to be weak just to test your patience.",
     "🚨 Just in: Suikachu escaped rehab again. Hopium is flooding the land. The Suimon Authority has declared a national emergency.",
     "📘 The Suidex lists overconfidence as a common trainer debuff.",
-    "🏟️ Arena leaders respect only one thing. Consistency.",
-    "📉 When charts go down Suimon calls it difficulty scaling.",
+    "🏟️ Arena leaders respect only one thing. Consistency.",,
     "🧪 Mixing hopium and impatience causes instant confusion.",
-    "🏕️ Experienced trainers know when to rest and not press buttons.",
     "🐢 Suimon moves slow so trainers can keep up.",
     "🔍 The rarest Suimon ability is ignoring noise.",
     "🎨 Picasso lost an ear after someone asked him to draw a Suimon meme for Fan Art Friday."
@@ -61,6 +58,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
