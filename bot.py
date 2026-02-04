@@ -11,14 +11,9 @@ INTERVAL_SECONDS = 4000
 
 # ================= FACTS =================
 SUIMON_FACTS = [
-    "🎒 Suimon trainers always say just one more arena and disappear for six hours.",
-    "🚨 Just in: Suikachu escaped rehab again. Hopium is flooding the land. The Suimon Authority has declared a national emergency.",
-    "📘 The Suidex lists overconfidence as a common trainer debuff.",
-    "🏟️ Arena leaders respect only one thing. Consistency."
-    "🧪 Mixing hopium and impatience causes instant confusion.",
-    "🐢 Suimon moves slow so trainers can keep up.",
-    "🔍 The rarest Suimon ability is ignoring noise.",
-    "🎨 Picasso lost an ear after someone asked him to draw a Suimon meme for Fan Art Friday."
+    "♣️Pokermon 5pm EST♣️ Trainer don't forget to register! https://www.pokernow.com/mtt/pokermon-2426-21tf98IWa7",
+    "♣️Pokermon 5pm EST♣️Forgot our Pokermon Night today? Don't worry register now: https://www.pokernow.com/mtt/pokermon-2426-21tf98IWa7",
+    "😌🚬 Chad lost his house at a Pokermon table and never left PokerNow.",
 ]
 # ===== BOT =====
 bot = Bot(token=BOT_TOKEN)
@@ -58,6 +53,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
