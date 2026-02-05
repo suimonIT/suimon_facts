@@ -7,7 +7,7 @@ from telegram.constants import ParseMode
 BOT_TOKEN = "8307980171:AAEPQxPujHOy0j1WN-bA2RWfq7z_fTKcOes"
 CHAT_ID = -1002664937769  
 
-INTERVAL_SECONDS = 2520
+INTERVAL_SECONDS = 3720
 
 # ================= FACTS =================
 SUIMON_FACTS = [
@@ -70,6 +70,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
