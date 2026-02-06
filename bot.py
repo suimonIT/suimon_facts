@@ -17,17 +17,11 @@ SUIMON_FACTS = [
     "🏟️ Arena leaders respect only one thing: consistency. And sometimes memes.",
     "🧪 Mixing hopium with impatience causes instant confusion and random button clicking.",
     "🐢 Suimon moves slow so trainers dont lose their sanity watching charts.",
-    "🔍 The rarest Suimon ability is ignoring noise and not replying to doom posts.",
     "💊 Side effects of holding Suimon may include euphoria, delayed sleep, and saying trust the process unironically.",
     "🌫️ Suimon trainers dont chase pumps. They inhale hopium and wait.",
-    "⚗️ The Sui ecosystem runs on Move. Suimon trainers run on caffeine and hopium.",
     "🎮 Suimon is inspired by childhood games and adult financial trauma.",
-    "📉 When charts go down, Suimon gains emotional resistance.",
-    "🔥 Every Suimon arena teaches the same lesson: survive the noise.",
-    "🌀 Too much alpha exposure may result in temporary delusion.",
     "🛑 Suimon rehab centers are full. Nobody wants to leave the ecosystem.",
-    "🎨 Someone once tried to draw Suimon sober. It didnt feel right.",
-    "🧃 The official Suimon drink is optimism with a splash of disbelief.",
+    "🧃 The official Suimon drink is optimism with a splash of belief.",
 ]
 # ===== BOT =====
 bot = Bot(token=BOT_TOKEN)
@@ -67,6 +61,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
