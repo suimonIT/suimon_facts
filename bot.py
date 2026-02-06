@@ -12,15 +12,16 @@ INTERVAL_SECONDS = 3720
 # ================= FACTS =================
 SUIMON_FACTS = [
     "🎒 Suimon trainers say just one more arena and accidentally time travel six hours into the future.",
-    "🚨 BREAKING: Suikachu escaped rehab again. Hopium reserves at all time highs. Authorities advise calm and diamond hands.",
     "📘 The Suidex lists overconfidence as a passive debuff with a 99% uptime.",
     "🏟️ Arena leaders respect only one thing: consistency. And sometimes memes.",
-    "🧪 Mixing hopium with impatience causes instant confusion and random button clicking.",
-    "🐢 Suimon moves slow so trainers dont lose their sanity watching charts.",
+    "🚨🚓 BREAKING: Trainers have summoned Adeniyi for not bringing Pokémon to SUI yet. Investigation ongoing."
+    "🛠️ SUI engineers accidentally created a chain fast enough for real-time SUIMON battles.",
+    "👮‍♂️ Authorities remind trainers: catching SUIMON off-chain is still illegal in SUI canon.",
+    "🎲 Suimon rewards patience and punishes overthinking equally.",
+    "🧬 SUI dev meetings reportedly start with one question: would SUIMON approve this?",
+    "🧪 SUIMON tested SUI and asked why other chains are still loading.",
     "💊 Side effects of holding Suimon may include euphoria, delayed sleep, and saying trust the process unironically.",
-    "🌫️ Suimon trainers dont chase pumps. They inhale hopium and wait.",
     "🎮 Suimon is inspired by childhood games and adult financial trauma.",
-    "🛑 Suimon rehab centers are full. Nobody wants to leave the ecosystem.",
     "🧃 The official Suimon drink is optimism with a splash of belief.",
 ]
 # ===== BOT =====
@@ -61,6 +62,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
