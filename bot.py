@@ -11,14 +11,25 @@ INTERVAL_SECONDS = 3720
 
 # ================= FACTS =================
 SUIMON_FACTS = [
-    "🚨🚓 BREAKING: Trainers have summoned Adeniyi for not bringing Pokémon to SUI yet. Investigation ongoing.",
-    "🛠️ SUI engineers accidentally created a chain fast enough for real-time SUIMON battles.",
-    "👮‍♂️ Authorities remind trainers: catching SUIMON off-chain is still illegal in SUI canon.",
-    "🧬 SUI dev meetings reportedly start with one question: would SUIMON approve this?",
-    "🧪 SUIMON tested SUI and asked why other chains are still loading.",
-    "💊 Side effects of holding Suimon may include euphoria, delayed sleep, and saying trust the process unironically.",
-    "🎮 Suimon is inspired by childhood games and adult financial trauma.",
-    "🧃 The official Suimon drink is optimism with a splash of belief.",
+"🎒 Suimon trainers say just one more arena and wake up in a different timezone.",
+"🧬 The SUI ecosystem feels less like finance and more like a very serious game engine.",
+"🚓 Officer Jenny joined SUIMON because even arrests finalize instantly.",
+"🩺 Nurse Joy recommends hydration, rest, and not reading Move docs at 3am.",
+"🎮 Suimon tested SUI and asked why other chains feel turn-based.",
+"🧠 Extended time on SUI causes irreversible onchain thinking.",
+"🧪 Reading SUI dev threads late at night creates unnatural confidence.",
+"🚨🚓 BREAKING: Unauthorized Suiballs detected on testnet.",
+"🎭 Suimon teaches emotional control through repeated exposure.",
+"🧬 SUI developers accidentally built something Suimon would actually respect.",
+"🎲 Every Suimon arena doubles as a mental endurance test.",
+"🌫️ Trainers report strange clarity after disconnecting from everything except SUI.",
+"🔐 Suimon trust SUI because objects behave like objects.",
+"🩺 Nurse Joy confirmed trainers suffer from chronic onchain brain.",
+"🌀 Reality feels slightly optional after deep dives into SUI architecture.",
+"🏟️ The final arena unlocks when trainers stop asking wen.",
+"🧠 SUI feels like a blockchain designed by people who played too many games.",
+"🚓 Officer Jenny closed the case after realizing everything was working as intended.",
+"🧬 Suimon exists where nostalgia meets technical overengineering."
 ]
 # ===== BOT =====
 bot = Bot(token=BOT_TOKEN)
@@ -58,6 +69,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
