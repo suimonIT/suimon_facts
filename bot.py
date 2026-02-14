@@ -12,23 +12,15 @@ INTERVAL_SECONDS = 3720
 # ================= FACTS =================
 SUIMON_FACTS = [
 "⚡ After Pikachu inhaled toilet dust, he evolved into Suikatchu.",
-"🎒 Suimon trainers still blame lag when they lose, even onchain.",
-"🎭 Every arena battle is just psychology with extra steps.",
-"🔮 The Suidex lists patience as a mythical attribute.",
 "🚀 Team Rocket committed more career crimes than most Netflix documentaries.",    
 "🚓 Officer Jenny investigating suspicious levels of hopium.",
-"🎮 Critical hits occur when bots fall asleep.",
 "🌫️ Second-hand hopium exposure linked to extreme price targets.",
-"🧠 Trainers report hearing 'wen moon' in complete silence.",
 "💊 Nurse Joy prescribes touching grass and closing the app.",
 "💊 Nurse Joy warns that hopium is not a substitute for risk management.",
 "🎬 Leonardo DiCaprio buys SUIMON because it’s still early.",
 "💔 Taylor Swift left SUIMON just to write a song about it.",    
 "🎤 Drake buys SUIMON because he also has a history of liking things early.",
 "🎭 Team Rocket has a higher failure rate than day-one traders.",    
-"🔥 Legendary Suimon appear only after you sell.",
-"⚡ Suikatchu still denies the toilet dust incident.",
-"🎒 Trainers carry screenshots instead of potions."
 ]
 # ===== BOT =====
 bot = Bot(token=BOT_TOKEN)
@@ -68,6 +60,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
