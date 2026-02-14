@@ -11,25 +11,24 @@ INTERVAL_SECONDS = 3720
 
 # ================= FACTS =================
 SUIMON_FACTS = [
-"🎒 Suimon trainers say just one more arena and wake up in a different timezone.",
-"🧬 The SUI ecosystem feels less like finance and more like a very serious game engine.",
-"🚓 Officer Jenny joined SUIMON because even arrests finalize instantly.",
-"🩺 Nurse Joy recommends hydration, rest, and not reading Move docs at 3am.",
-"🎮 Suimon tested SUI and asked why other chains feel turn-based.",
-"🧠 Extended time on SUI causes irreversible onchain thinking.",
-"🧪 Reading SUI dev threads late at night creates unnatural confidence.",
-"🚨🚓 BREAKING: Unauthorized Suiballs detected on testnet.",
-"🎭 Suimon teaches emotional control through repeated exposure.",
-"🧬 SUI developers accidentally built something Suimon would actually respect.",
-"🎲 Every Suimon arena doubles as a mental endurance test.",
-"🌫️ Trainers report strange clarity after disconnecting from everything except SUI.",
-"🔐 Suimon trust SUI because objects behave like objects.",
-"🩺 Nurse Joy confirmed trainers suffer from chronic onchain brain.",
-"🌀 Reality feels slightly optional after deep dives into SUI architecture.",
-"🏟️ The final arena unlocks when trainers stop asking wen.",
-"🧠 SUI feels like a blockchain designed by people who played too many games.",
-"🚓 Officer Jenny closed the case after realizing everything was working as intended.",
-"🧬 Suimon exists where nostalgia meets technical overengineering."
+"⚡ After Pikachu inhaled toilet dust, he evolved into Suikatchu.",
+"🎒 Suimon trainers still blame lag when they lose, even onchain.",
+"🎭 Every arena battle is just psychology with extra steps.",
+"🔮 The Suidex lists patience as a mythical attribute.",
+"🚀 Team Rocket committed more career crimes than most Netflix documentaries.",    
+"🚓 Officer Jenny investigating suspicious levels of hopium.",
+"🎮 Critical hits occur when bots fall asleep.",
+"🌫️ Second-hand hopium exposure linked to extreme price targets.",
+"🧠 Trainers report hearing 'wen moon' in complete silence.",
+"💊 Nurse Joy prescribes touching grass and closing the app.",
+"💊 Nurse Joy warns that hopium is not a substitute for risk management.",
+"🎬 Leonardo DiCaprio buys SUIMON because it’s still early.",
+"💔 Taylor Swift left SUIMON just to write a song about it.",    
+"🎤 Drake buys SUIMON because he also has a history of liking things early.",
+"🎭 Team Rocket has a higher failure rate than day-one traders.",    
+"🔥 Legendary Suimon appear only after you sell.",
+"⚡ Suikatchu still denies the toilet dust incident.",
+"🎒 Trainers carry screenshots instead of potions."
 ]
 # ===== BOT =====
 bot = Bot(token=BOT_TOKEN)
@@ -69,6 +68,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
