@@ -11,10 +11,14 @@ INTERVAL_SECONDS = 5700
 
 # ================= FACTS =================
 SUIMON_FACTS = [
+"🧬 SUIMON trainers claim their portfolios evolved purely out of instinct.",
+"🚀 Some investors insist SUIMON found them, not the other way around.",
+"📊 DiCaprio’s interest in SUIMON reportedly triggered by its early age.",
 "⚡ After Pikachu inhaled toilet dust, he evolved into Suikatchu.",
-"💊 Nurse Joy prescribes touching grass and closing the app.",
+"🕶️ Rumor says Van Johnovich is just John Wick operating under a cover identity.",
+"🌌 JDL took a DMT trip with Suikatchu and witnessed SUIMON’s legendary future.",
 "🎤 Drake buys SUIMON because he has a history of liking things early.",
-"💰 Ronny’s Pokermon luck classified as a legendary passive ability.",
+"🎰 Ronny wins weekly Pokermon with suspicious consistency.",
 ]
 
 # ===== BOT =====
@@ -55,6 +59,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
