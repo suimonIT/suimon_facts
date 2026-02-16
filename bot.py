@@ -11,14 +11,16 @@ INTERVAL_SECONDS = 5700
 
 # ================= FACTS =================
 SUIMON_FACTS = [
-"🧬 SUIMON trainers claim their portfolios evolved purely out of instinct.",
-"🚀 Some investors insist SUIMON found them, not the other way around.",
-"📊 DiCaprio’s interest in SUIMON reportedly triggered by its early age.",
-"⚡ After Pikachu inhaled toilet dust, he evolved into Suikatchu.",
-"🕶️ Rumor says Van Johnovich is just John Wick operating under a cover identity.",
-"🌌 JDL took a DMT trip with Suikatchu and witnessed SUIMON’s legendary future.",
-"🎤 Drake buys SUIMON because he has a history of liking things early.",
-"🎰 Ronny wins weekly Pokermon with suspicious consistency.",
+"🚀 Team Rocket has a worse success rate than random SUIMON predictions.",
+"⚡ Pikatchu evolved into Suikatchu after migrating to the SUI chain.",
+"🚓 Officer Jenny monitors suspicious levels of hopium activity.",
+"💊 Nurse Joy recommends touching grass after extreme SUIMON exposure.",
+"🌌 Legendary SUIMON reportedly ignore normal probability rules.",
+"💎 Diamond hands considered a natural trainer ability.",
+"🚓 Officer Joy briefly detained Sgt. Jeff and Van Johnovich for excessive SUIMON enthusiasm.",
+"👨‍🍳 Gordon reportedly cooks better than Ramsey after discovering SUIMON.",
+"💊 Suikatchu has been through more rehab cycles than Lindsay Lohan.",
+"📜 Ancient trainer myths describe a creature matching SUIMON’s energy."
 ]
 
 # ===== BOT =====
@@ -59,6 +61,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
