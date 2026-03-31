@@ -11,16 +11,21 @@ INTERVAL_SECONDS = 5700
 
 # ================= FACTS =================
 SUIMON_FACTS = [
-"🚀 Team Rocket has a worse success rate than random SUIMON predictions.",
-"⚡ Pikatchu evolved into Suikatchu after migrating to the SUI chain.",
-"🚓 Officer Jenny monitors suspicious levels of hopium activity.",
-"💊 Nurse Joy recommends touching grass after extreme SUIMON exposure.",
-"🌌 Legendary SUIMON reportedly ignore normal probability rules.",
-"💎 Diamond hands considered a natural trainer ability.",
-"🚓 Officer Joy briefly detained Sgt. Jeff and Van Johnovich for excessive SUIMON enthusiasm.",
-"👨‍🍳 Gordon reportedly cooks better than Ramsey after discovering SUIMON.",
-"💊 Suikatchu has been through more rehab cycles than Lindsay Lohan.",
-"📜 Ancient trainer myths describe a creature matching SUIMON’s energy."
+"💦 Suiqrtle doesn’t panic — he just lets weak hands drown themselves.",
+"🌿 Bausarimon once slapped a promoter so hard he’s still mumbling nonsense.",
+"🔥 Suimander’s tail burns brighter every time someone sells and watches it pump after.",
+"🥷 Ninja lands kicks harder than a missed stop-loss hurts ego.",
+"💊 Nurse Joy doesn’t heal feelings — she just tells you to stop being soft.",
+"🚨 Sgt. Jeff said he was on a 'private island mastermind trip' — bro came back acting like he owns the place.",
+"👨‍🍳 Gordon raids harder than a SWAT team.",
+"📉 Every dip reveals who was loud for attention and who was actually built for it.",
+"💎 Diamond hands isn’t a flex — it’s surviving your own bad decisions.",
+"🧠 Half the trainers don’t need strategy — they need supervision.",
+"⚡ If you lose with SUIMON, that’s a skill issue.",
+"🌿 Bausarimon doesn’t absorb sunlight — he absorbs excuses.",
+"🔥 Suimander doesn’t fear water — only low testosterone energy.",
+"🏆 The real evolution stone is embarrassment.",
+"💥 Nira just joined and pushes harder than Escobar in his prime."
 ]
 
 # ===== BOT =====
